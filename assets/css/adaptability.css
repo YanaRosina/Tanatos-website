@@ -1,0 +1,256 @@
+@media (max-width: 990px) {
+  /*Intro*/
+.intro_title {
+  font-size: 60px;
+}
+.intro_subtitle {
+  font-size: 20px;
+}
+ /*Design*/
+ .design {
+   margin: 60px 0;
+ }
+ .design_title {
+   padding: 15px 0;
+ }
+ .design_text {
+   padding: 0 15px;
+ }
+  /*Say_hello*/
+  .say_hello_input_1, .say_hello_input_2 {
+    width: 45%;
+  }
+
+ /*Work*/
+  .works_info{
+    top: 10%;
+  }
+  .works_title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .works_text {
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+  .works_btn {
+    font-size: 12px;
+  }
+
+  /*Team*/
+  .team_item {
+    width: 25%;
+  }
+  .team_photo {
+    width: 100%;
+  }
+  .team_name {
+    font-size: 20px;
+  }
+  .team_icon {
+    font-size: 25px;
+  }
+  .team_item:hover {
+    margin-bottom: 0;
+  }
+  .team_item:hover .team_photo {
+    width: 100%;
+    transform: translate3d(0, 0, 0);
+  }
+  .team_item:hover .team_name, .team_item:hover .team_text {
+    transform: translate3d(0, 0, 0);
+  }
+  .team_item:hover .team_icon {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@media (max-width: 770px) {
+  /*Intro*/
+.intro_title {
+  font-size: 50px;
+}
+.intro_subtitle {
+  font-size: 18px;
+}
+/*Design*/
+.design_item {
+  width: 50%;
+  padding-bottom: 20px;
+}
+/*Feedback*/
+.subscribe_input {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+.subscribe_btn {
+  width: 100%;
+}
+/*Work*/
+.works_inner {
+  width: 50%;
+}
+.works_info{
+  top: 15%;
+}
+.works_title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.works_text {
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+.works_btn {
+  font-size: 16px;
+}
+.works_bottom_btn {
+  left: 37%;
+}
+.works_bottom_btn {
+  display: flex;
+  justify-content: center;
+  left: 0;
+}
+/*Comments*/
+.comments {
+  margin-top: 20px;
+}
+.comments_text {
+  font-size: 22px;
+  width: 70%;
+}
+.comments_name {
+  font-size: 16px;
+}
+/*Team*/
+.team_item {
+  width: 50%;
+  margin-bottom: 30px;
+}
+.team_item:hover {
+  margin-bottom: 30px;
+}
+
+/*Say hello*/
+.say_hello_input_1, .say_hello_input_2 {
+    width: 100%;
+  }
+.say_hello_input_1 {
+  margin-bottom: 30px;
+}
+
+/*footer*/
+.footer {
+  padding: 30px 0;
+}
+.footer_copyright {
+  font-size: 14px;
+}
+.footer_design {
+  font-size: 14px;
+}
+}
+@media (max-width: 575px) {
+  /* Heder*/
+  .header_logo {
+    font-size: 18px;
+  }
+  /* Nav*/
+  .nav_title {
+    top: 3px;
+  }
+  .nav_button {
+    top: 22px;
+  }
+  /*Intro*/
+.intro_title {
+  font-size: 40px;
+}
+.intro_subtitle {
+  font-size: 14px;
+}
+.intro_btn {
+  margin-top: 50px;
+}
+.intro_btn {
+  display: flex;
+  flex-direction: column
+}
+.btn_1 {
+margin-right: 0;
+}
+.btn_2 {
+margin-top: 15px;
+}
+
+/*Design*/
+.design_item {
+  width: 100%;
+  padding-bottom: 20px;
+  max-width: 320px;
+}
+
+/*Feedback*/
+.subscribe_input {
+  font-size: 15px;
+}
+/*Work*/
+.works {
+  justify-content: center;
+}
+.works_inner {
+  width: 390px;
+  max-width: 100%;
+  padding: 12px 16px;
+}
+.works_bottom_btn {
+  text-align: center;
+}
+
+/*Comments*/
+.comments_text {
+  font-size: 16px;
+  width: 80%;
+  padding: 15px 0;
+}
+
+/*Team*/
+.team_item {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+/*Say hello*/
+.say_hello_input_1 {
+  margin-bottom: 10px;
+}
+.say_hello_input_3 {
+  margin-top: 10px;
+  padding: 10px 0 100px 20px;
+}
+.say_hello_input_1, .say_hello_input_2, .say_hello_input_3 {
+  margin-right: 10px;
+}
+.say_hello_btn {
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.say_hello_icon {
+margin: auto;
+}
+
+/*footer*/
+.footer {
+  padding: 20px 0;
+}
+.footer_copyright {
+  font-size: 12px;
+}
+.footer_design {
+  font-size: 12px;
+  margin-left: 10px;
+}
+}
