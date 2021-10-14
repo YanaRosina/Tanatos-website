@@ -6,6 +6,12 @@
 .intro_subtitle {
   font-size: 20px;
 }
+
+/*Nav*/
+
+.nav_burger {
+  width: 40%;
+}
  /*Design*/
  .design {
    margin: 60px 0;
@@ -71,6 +77,11 @@
 }
 .intro_subtitle {
   font-size: 18px;
+}
+
+/*Nav*/
+.nav_burger {
+  width: 50%;
 }
 /*Design*/
 .design_item {
@@ -157,11 +168,12 @@
     font-size: 18px;
   }
   /* Nav*/
-  .nav_title {
-    top: 3px;
-  }
   .nav_button {
     top: 22px;
+    right: 20px;
+  }
+  .nav_burger {
+    width: 100%;
   }
   /*Intro*/
 .intro_title {

@@ -9,43 +9,48 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <title>Tantos</title>
 </head>
 <body>
 
 <!--Header!-->
-<header class="header">
+<header class="header" id="header">
   <div class="container">
     <div class="header_inner">
       <div class="header_logo">Tanatos<span>Stydio</span></div>
-      <div class="nav">
-        <div class="nav_title">Menu</div>
-        <button class="nav_button"type="button">
-          <span class="nav_menu">Menu</span>
-        </button>
-      </div>
+      <nav class="nav_burger" id="nav_burger">
+
+        <a class="nav_link" href="#" data-scroll="#design">Design</a>
+        <a class="nav_link" href="#" data-scroll="#works">Works</a>
+        <a class="nav_link" href="#" data-scroll="#team">Team</a>
+        <a class="nav_link" href="#" data-scroll="#say_hello">Contact us</a>
+      </nav>
+     <button class="nav_button" type="button" id="nav_button">
+        <span class="nav_menu">Menu</span>
+      </button>
     </div>
   </div>
 </header>
 
 <!--Intro!-->
-<div class="intro">
+<div class="intro" id= "intro">
   <div class="container">
     <div class="intro_inner">
       <div class="intro_title">WE DESIGN <span>THINGS</span></div>
       <div class="intro_subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
       <div class="intro_btn">
-        <a class="btn_1" href="#">Hire us</a>
-        <a class="btn_2" href="#">Our works</a>
+        <a class="btn_1" href="#" data-scroll="#say_hello">Hire us</a>
+        <a class="btn_2" href="#" data-scroll="#works">Our works</a>
       </div>
-      <img class="intro_img" src="assets\images\intro\intro_btn.png" alt="">
+      <img class="intro_img" src="assets\images\intro\intro_btn.png" alt="" data-scroll ="#design">
     </div>
   </div>
 </div>
 
 <!--Design!-->
-<div class="container">
+<div class="container" id="design">
   <div class="design">
     <div class="design_item">
       <img class="design_img" src="assets\images\design\1.png" alt="">
@@ -81,7 +86,7 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
 </div>
 
 <!--Works!-->
-<section class="section">
+<section class="section" id="works">
   <div class="container">
     <div class="section_header">
       <div class="section_title">Our <span>works</span></div>
@@ -180,7 +185,7 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
   </div>
 
 <!--Team!-->
-<section class="section">
+<section class="section" id="team">
   <div class="container">
     <div class="section_header">
       <div class="section_title">Our <span>team</span></div>
@@ -257,7 +262,7 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
 </section>
 
 <!--Say hello!-->
-<div class="say_hello">
+<div class="say_hello" id="say_hello">
   <div class="container">
     <div class="section_header">
       <div class="section_title section_title--footer">Say <span>hello</span></div>
@@ -292,5 +297,7 @@ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
  <div class="footer_copyright">© 2015 COPYRIGHT DESIGN STUDIO</div>
  <div class="footer_design">DESIGNED BY SYMU<span>.</span>CO</div>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
